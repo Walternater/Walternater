@@ -1,7 +1,7 @@
 # Wang Chongfei
 
-> Exploring agent-assisted software engineering — how AI agents and human
-> judgment combine to produce real, reviewable open-source work.
+> Building toward a future where AI agents do the busywork and humans do the
+> judging — this account is my public record of that experiment.
 
 Software engineer. This README documents how this account works, so that
 maintainers and reviewers know exactly what to expect from my pull requests.
