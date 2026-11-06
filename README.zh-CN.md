@@ -83,7 +83,7 @@ PR 中不带任何产品或品牌推广。
 <!-- merged-prs:start -->
 ## 📊 已合并的开源贡献
 
-在别人的仓库里被合并的 PR 共 **32** 个，覆盖 **2** 个开源项目。时间跨度 2026-07-27 → 2026-11-06。
+在别人的仓库里被合并的 PR 共 **33** 个，覆盖 **2** 个开源项目。时间跨度 2026-07-27 → 2026-11-06。
 
 每个 PR 都经过人工逐行审阅后提交，正文披露 AI 参与，并由我对全部内容负责。
 
@@ -93,6 +93,7 @@ PR 中不带任何产品或品牌推广。
 
 | PR | 内容 | 规模 | 合并 |
 |---|---|---|---|
+| [#1759](https://github.com/Tencent/teamai-cli/pull/1759) | fix(push): give every push branch a name nothing has yet | +26/-8 | 2026-11-06 |
 | [#1756](https://github.com/Tencent/teamai-cli/pull/1756) | fix(dashboard): give the benchmark Recall column its zh-CN label | +1/-0 | 2026-11-06 |
 | [#1740](https://github.com/Tencent/teamai-cli/pull/1740) | fix(benchmark): keep an arm's recall when a record is read back | +79/-5 | 2026-11-06 |
 | [#1729](https://github.com/Tencent/teamai-cli/pull/1729) | test(relations): cover a learning that lives in the learnings worktree | +78/-1 | 2026-11-05 |
