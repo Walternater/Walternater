@@ -87,7 +87,7 @@ PRs carry no product or brand promotion.
 <!-- merged-prs:start -->
 ## 📊 Merged open-source contributions
 
-**31** merged pull requests in other people's repositories, across **2** open-source projects. From 2026-07-27 to 2026-11-06.
+**32** merged pull requests in other people's repositories, across **2** open-source projects. From 2026-07-27 to 2026-11-06.
 
 Every one of them was reviewed line by line before submission, discloses its AI assistance in the body, and is my responsibility.
 
@@ -97,6 +97,7 @@ Every one of them was reviewed line by line before submission, discloses its AI 
 
 | PR | What | Size | Merged |
 |---|---|---|---|
+| [#1756](https://github.com/Tencent/teamai-cli/pull/1756) | fix(dashboard): give the benchmark Recall column its zh-CN label | +1/-0 | 2026-11-06 |
 | [#1740](https://github.com/Tencent/teamai-cli/pull/1740) | fix(benchmark): keep an arm's recall when a record is read back | +79/-5 | 2026-11-06 |
 | [#1729](https://github.com/Tencent/teamai-cli/pull/1729) | test(relations): cover a learning that lives in the learnings worktree | +78/-1 | 2026-11-05 |
 | [#1728](https://github.com/Tencent/teamai-cli/pull/1728) | feat(benchmark): give an arm a clone that deploys the team's recall | +175/-17 | 2026-11-05 |
