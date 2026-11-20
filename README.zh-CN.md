@@ -186,6 +186,99 @@ PR 中不带任何产品或品牌推广。
 | [#1936](https://github.com/alibaba/open-code-review/pull/1936) | feat(review): default --to to HEAD when only --from is given | +323/-41 | 2026-11-15 |
 | [#1922](https://github.com/alibaba/open-code-review/pull/1922) | feat(review): support --resume for workspace mode | +778/-64 | 2026-11-14 |
 
+## 🕗 在途 PR（未合并）
+
+生成本页时仍有 **16** 个 PR 未合并，分布在 **5** 个仓库。
+
+### 上游仓库
+
+**[alibaba/open-code-review](https://github.com/alibaba/open-code-review)**
+
+| PR | 内容 | 规模 | 提交 |
+|---|---|---|---|
+| [#2009](https://github.com/alibaba/open-code-review/pull/2009) | fix(cli): reject unknown --batch values in ocr scan | +56/-2 | 2026-11-19 |
+| [#1939](https://github.com/alibaba/open-code-review/pull/1939) | feat(rules): allow rule arrays to compose text from multiple files or parts | +567/-2 | 2026-11-14 |
+| [#1913](https://github.com/alibaba/open-code-review/pull/1913) | docs(review-rules): note that include also overrides the extension allowlist | +87/-20 | 2026-11-12 |
+
+**[Tencent/LoopForge](https://github.com/Tencent/LoopForge)**
+
+| PR | 内容 | 规模 | 提交 |
+|---|---|---|---|
+| [#1106](https://github.com/Tencent/LoopForge/pull/1106) | fix(platform): tell the model which wrapper a tool argument goes in | +116/-3 | 2026-11-19 |
+| [#1103](https://github.com/Tencent/LoopForge/pull/1103) | [draft] fix(local): require ripgrep for the forbidden-content scans | +13/-1 | 2026-11-19 |
+
+**[first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree)**
+
+| PR | 内容 | 规模 | 提交 |
+|---|---|---|---|
+| [#2459](https://github.com/first-tree-ai/first-tree/pull/2459) | feat(server): observe a GitHub repository by polling, delivery-free | +1541/-2 | 2026-11-17 |
+| [#2456](https://github.com/first-tree-ai/first-tree/pull/2456) | fix(client): route the WebSocket upgrade through HTTPS_PROXY | +343/-2 | 2026-11-17 |
+| [#2426](https://github.com/first-tree-ai/first-tree/pull/2426) | [draft] feat(cli): add tree verify --evidence for context tree evidence sidecars | +548/-3 | 2026-11-02 |
+| [#2424](https://github.com/first-tree-ai/first-tree/pull/2424) | [draft] docs: propose context tree depth loop | +329/-0 | 2026-10-29 |
+
+**[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)**
+
+| PR | 内容 | 规模 | 提交 |
+|---|---|---|---|
+| [#1918](https://github.com/Tencent/teamai-cli/pull/1918) | fix(push): keep a copy that holds a link of the member's, as pull does | +86/-3 | 2026-11-17 |
+| [#1916](https://github.com/Tencent/teamai-cli/pull/1916) | fix(push): remove a carry folder the copy failed before any reset left | +70/-4 | 2026-11-16 |
+| [#1908](https://github.com/Tencent/teamai-cli/pull/1908) | fix(pull): put back the skill a cut-short pre-push sync left in a hidden sibling | +233/-2 | 2026-11-16 |
+| [#1905](https://github.com/Tencent/teamai-cli/pull/1905) | fix(pull): point a kept agent or rule folder copy at the team folder, not at push | +98/-17 | 2026-11-16 |
+
+**[alibaba/skill-up](https://github.com/alibaba/skill-up)**
+
+| PR | 内容 | 规模 | 提交 |
+|---|---|---|---|
+| [#402](https://github.com/alibaba/skill-up/pull/402) | docs: add a routing canary for Skill activation evidence | +1058/-0 | 2026-11-13 |
+| [#401](https://github.com/alibaba/skill-up/pull/401) | docs(custom-engine): cover headless adapter pitfalls and add a ZCode example | +112/-1 | 2026-11-13 |
+| [#399](https://github.com/alibaba/skill-up/pull/399) | fix(qwen): pass the complete model id to the qwen CLI | +427/-25 | 2026-11-13 |
+
+## 📝 issue 报告
+
+提交给上游仓库的 **15** 个问题报告，含已关闭的，覆盖 **5** 个仓库。
+
+### 上游仓库
+
+**[alibaba/open-code-review](https://github.com/alibaba/open-code-review)**
+
+| issue | 标题 | 状态 | 提交 |
+|---|---|---|---|
+| [#2008](https://github.com/alibaba/open-code-review/issues/2008) | ocr scan --batch silently ignores misspelled values | open | 2026-11-19 |
+| [#1914](https://github.com/alibaba/open-code-review/issues/1914) | bug(tool): code_search and file_find silently ignore string-typed boolean arguments | open | 2026-11-12 |
+
+**[Tencent/LoopForge](https://github.com/Tencent/LoopForge)**
+
+| issue | 标题 | 状态 | 提交 |
+|---|---|---|---|
+| [#1044](https://github.com/Tencent/LoopForge/issues/1044) | [Bug]: ci(local): validate 的 forbidden-content 检查从未运行 —— CI 缺 ripgrep，三道扫描被静默跳过 | open | 2026-11-18 |
+
+**[first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree)**
+
+| issue | 标题 | 状态 | 提交 |
+|---|---|---|---|
+| [#2457](https://github.com/first-tree-ai/first-tree/issues/2457) | [Bug] daemon WebSocket ignores HTTPS_PROXY — socket stays direct while fetch is proxied | open | 2026-11-17 |
+| [#2449](https://github.com/first-tree-ai/first-tree/issues/2449) | [Bug] macOS: any workspace under an aliased path (/tmp, /var, ~/symlinked-dir) refuses to bootstrap | open | 2026-11-15 |
+| [#2423](https://github.com/first-tree-ai/first-tree/issues/2423) | [Feature] Opt-in evidence layer + depth loop for Context Tree | open | 2026-10-29 |
+| [#1973](https://github.com/first-tree-ai/first-tree/issues/1973) | kimi-code runtime: OAuth token provider callback not wired (AUTH_LOGIN_REQUIRED with valid credentials) | closed | 2026-07-23 |
+
+**[alibaba/skill-up](https://github.com/alibaba/skill-up)**
+
+| issue | 标题 | 状态 | 提交 |
+|---|---|---|---|
+| [#395](https://github.com/alibaba/skill-up/issues/395) | docs: CONTRIBUTING says no CLA is required, but cla-assistant blocks the merge until it is signed | closed | 2026-11-12 |
+
+**[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)**
+
+| issue | 标题 | 状态 | 提交 |
+|---|---|---|---|
+| [#1841](https://github.com/Tencent/teamai-cli/issues/1841) | [bug] A git-mode `teamai push` without --branch reverts a teammate's newer teamai.yaml change | closed | 2026-11-12 |
+| [#1825](https://github.com/Tencent/teamai-cli/issues/1825) | [bug] uninstall in a project keeps the machine-wide hooks it wrote, even when no other install is set up | open | 2026-11-11 |
+| [#1758](https://github.com/Tencent/teamai-cli/issues/1758) | A second `teamai remove` in the same second fails with "a branch named … already exists" | closed | 2026-11-06 |
+| [#1757](https://github.com/Tencent/teamai-cli/issues/1757) | [bug] a document with no vote data outranks one that was recalled a few times: hotness is not monotonic in evidence | closed | 2026-11-06 |
+| [#1552](https://github.com/Tencent/teamai-cli/issues/1552) | [feat] Deepen a team's knowledge: relations across every asset, delivered to every tool, proved on the task bank | closed | 2026-10-29 |
+| [#1526](https://github.com/Tencent/teamai-cli/issues/1526) | [test] Three workflow-workspace cases end early with a wrong outcome instead of timing out | closed | 2026-10-28 |
+| [#1523](https://github.com/Tencent/teamai-cli/issues/1523) | [test] The skill driver's harness reads a runner waiting inside the engine's run lock as one that loops | closed | 2026-10-28 |
+
 <!-- merged-prs:end -->
 
 ## 🧰 工具
