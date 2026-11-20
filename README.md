@@ -87,16 +87,63 @@ PRs carry no product or brand promotion.
 <!-- merged-prs:start -->
 ## 📊 Merged open-source contributions
 
-**34** merged pull requests in other people's repositories, across **2** open-source projects. From 2026-07-27 to 2026-11-06.
+**77** merged pull requests in other people's repositories, across **4** open-source projects. From 2026-07-27 to 2026-11-19.
 
 Every one of them was reviewed line by line before submission, discloses its AI assistance in the body, and is my responsibility.
 
 ### Upstream repositories
 
+**[first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree)**
+
+| PR | What | Size | Merged |
+|---|---|---|---|
+| [#2458](https://github.com/first-tree-ai/first-tree/pull/2458) | fix(server): treat an undecodable OAuth state cookie as absent | +30/-1 | 2026-11-17 |
+| [#2455](https://github.com/first-tree-ai/first-tree/pull/2455) | feat(deepseek-harness): fall back to the DSH desktop credentials file for DEEPSEEK_API_KEY | +441/-2 | 2026-11-17 |
+| [#2454](https://github.com/first-tree-ai/first-tree/pull/2454) | fix(client): boot the DeepSeek harness with a valid cordis template | +17/-1 | 2026-11-16 |
+| [#2453](https://github.com/first-tree-ai/first-tree/pull/2453) | fix(client): follow same-origin redirects only on credentialed SDK calls | +272/-1 | 2026-11-16 |
+| [#2452](https://github.com/first-tree-ai/first-tree/pull/2452) | fix(cli): refuse to send a saved token to a different server origin | +1110/-410 | 2026-11-19 |
+| [#2451](https://github.com/first-tree-ai/first-tree/pull/2451) | fix(server): stop capturing credential-bearing config bodies, scrub nested strings | +364/-28 | 2026-11-17 |
+| [#2450](https://github.com/first-tree-ai/first-tree/pull/2450) | fix(shared): redact OAuth callback params and invitation tokens in logged URLs | +217/-19 | 2026-11-17 |
+| [#2448](https://github.com/first-tree-ai/first-tree/pull/2448) | fix(client): scrub Sentry events with the shared credential pass | +131/-6 | 2026-11-19 |
+| [#2447](https://github.com/first-tree-ai/first-tree/pull/2447) | fix(client): keep TUI config temp files private and out of tmux errors | +270/-14 | 2026-11-17 |
+| [#2446](https://github.com/first-tree-ai/first-tree/pull/2446) | fix(server): read doc previews from the descriptor that was checked | +796/-56 | 2026-11-18 |
+| [#2445](https://github.com/first-tree-ai/first-tree/pull/2445) | feat(cli): accept agent env values from stdin | +169/-29 | 2026-11-15 |
+| [#2443](https://github.com/first-tree-ai/first-tree/pull/2443) | fix(cli): strip terminal control bytes from interactive chat output | +154/-4 | 2026-11-15 |
+| [#2442](https://github.com/first-tree-ai/first-tree/pull/2442) | fix(shared): require https for installer URLs | +274/-40 | 2026-11-15 |
+| [#2441](https://github.com/first-tree-ai/first-tree/pull/2441) | fix(cli): single-quote launcher paths so $(...) stays inert | +242/-30 | 2026-11-15 |
+| [#2440](https://github.com/first-tree-ai/first-tree/pull/2440) | fix(cli): reject agent names that escape the state roots on removal | +250/-6 | 2026-11-16 |
+| [#2439](https://github.com/first-tree-ai/first-tree/pull/2439) | fix(installer): refuse to overwrite a shim this install does not own | +379/-12 | 2026-11-15 |
+| [#2438](https://github.com/first-tree-ai/first-tree/pull/2438) | docs: add a Chinese companion to the contributor guide | +100/-1 | 2026-11-14 |
+| [#2437](https://github.com/first-tree-ai/first-tree/pull/2437) | fix(installer): skip the payload download when the install is current | +323/-39 | 2026-11-14 |
+| [#2436](https://github.com/first-tree-ai/first-tree/pull/2436) | fix(server): return the 204 reply from the org settings DELETE | +1/-1 | 2026-11-12 |
+| [#2435](https://github.com/first-tree-ai/first-tree/pull/2435) | docs(qa): give the BYO activation case its Evidence section | +2/-0 | 2026-11-12 |
+| [#2434](https://github.com/first-tree-ai/first-tree/pull/2434) | fix(client): keep a late Codex app-server item out of a settled turn | +52/-0 | 2026-11-12 |
+| [#2433](https://github.com/first-tree-ai/first-tree/pull/2433) | fix(cli): keep chat send images on metadata.attachments | +299/-132 | 2026-11-13 |
+| [#2432](https://github.com/first-tree-ai/first-tree/pull/2432) | test(web): wait for the model menu's catalog option before picking | +80/-37 | 2026-11-11 |
+| [#2430](https://github.com/first-tree-ai/first-tree/pull/2430) | test(server): stop the durable-ack fallback cases from racing their own window | +18/-6 | 2026-11-05 |
+| [#2429](https://github.com/first-tree-ai/first-tree/pull/2429) | test(server): give the lost-wake provider-models test real timing headroom | +9/-4 | 2026-11-04 |
+| [#2428](https://github.com/first-tree-ai/first-tree/pull/2428) | test(web): pin Intl default locale in schedules-section-dom assertions | +20/-0 | 2026-11-04 |
+| [#2427](https://github.com/first-tree-ai/first-tree/pull/2427) | fix(server): send non-ASCII attachment names as RFC 5987 filename* | +31/-6 | 2026-11-04 |
+| [#1975](https://github.com/first-tree-ai/first-tree/pull/1975) | fix(kimi-code): pass KIMI_CODE_HOME to harness for config/credential resolution | +237/-7 | 2026-07-27 |
+
 **[Tencent/teamai-cli](https://github.com/Tencent/teamai-cli)**
 
 | PR | What | Size | Merged |
 |---|---|---|---|
+| [#1898](https://github.com/Tencent/teamai-cli/pull/1898) | fix(doctor): report an unparseable roles manifest, and keep --json stdout parseable | +134/-4 | 2026-11-15 |
+| [#1890](https://github.com/Tencent/teamai-cli/pull/1890) | fix(locate): keep Codex's shared skills read when a root is recorded | +46/-4 | 2026-11-15 |
+| [#1875](https://github.com/Tencent/teamai-cli/pull/1875) | fix(push): offer a doc edited in the docs mirror | +148/-51 | 2026-11-15 |
+| [#1861](https://github.com/Tencent/teamai-cli/pull/1861) | test: scrub the tool roots that `init` records, not only the ones a descriptor moves | +47/-6 | 2026-11-14 |
+| [#1855](https://github.com/Tencent/teamai-cli/pull/1855) | fix(push): restore --file/--path, removed in 0.30.0 on a mistaken premise | +712/-1 | 2026-11-13 |
+| [#1849](https://github.com/Tencent/teamai-cli/pull/1849) | feat(resources)!: let a team tune a default's thresholds with a params.yaml in its folder | +1904/-790 | 2026-11-12 |
+| [#1845](https://github.com/Tencent/teamai-cli/pull/1845) | fix(scripts): hide the console window for team scripts on Windows | +18/-2 | 2026-11-12 |
+| [#1842](https://github.com/Tencent/teamai-cli/pull/1842) | fix(push): merge a teamai.yaml edit on every refresh, not only --branch | +72/-1 | 2026-11-12 |
+| [#1837](https://github.com/Tencent/teamai-cli/pull/1837) | fix(push): merge a self-mode teamai.yaml edit onto the default branch | +55/-6 | 2026-11-13 |
+| [#1824](https://github.com/Tencent/teamai-cli/pull/1824) | fix(contribute): a call the host blocked is not a failing tool | +50/-0 | 2026-11-11 |
+| [#1817](https://github.com/Tencent/teamai-cli/pull/1817) | fix(uninstall): remove what teamai created and left empty | +268/-32 | 2026-11-10 |
+| [#1813](https://github.com/Tencent/teamai-cli/pull/1813) | fix(hooks): remove the payload file a background hook hands over | +151/-5 | 2026-11-10 |
+| [#1810](https://github.com/Tencent/teamai-cli/pull/1810) | feat(update): record installations and update registered npm-global copies | +1043/-106 | 2026-11-10 |
+| [#1774](https://github.com/Tencent/teamai-cli/pull/1774) | docs(guide): say the exclude list holds names, not kinds | +4/-0 | 2026-11-06 |
 | [#1762](https://github.com/Tencent/teamai-cli/pull/1762) | fix(doctor): say the exclude list already keeps an MCP server of your own | +47/-12 | 2026-11-06 |
 | [#1759](https://github.com/Tencent/teamai-cli/pull/1759) | fix(push): give every push branch a name nothing has yet | +26/-8 | 2026-11-06 |
 | [#1756](https://github.com/Tencent/teamai-cli/pull/1756) | fix(dashboard): give the benchmark Recall column its zh-CN label | +1/-0 | 2026-11-06 |
@@ -127,15 +174,21 @@ Every one of them was reviewed line by line before submission, discloses its AI 
 | [#1321](https://github.com/Tencent/teamai-cli/pull/1321) | feat(ci): support GitLab in ci extract-mr comments and rejection marks | +645/-24 | 2026-10-26 |
 | [#321](https://github.com/Tencent/teamai-cli/pull/321) | test(providers/gitlab): add opt-in live smoke test against real GitLab | +22/-0 | 2026-08-25 |
 
-**[first-tree-ai/first-tree](https://github.com/first-tree-ai/first-tree)**
+**[alibaba/skill-up](https://github.com/alibaba/skill-up)**
 
 | PR | What | Size | Merged |
 |---|---|---|---|
-| [#2430](https://github.com/first-tree-ai/first-tree/pull/2430) | test(server): stop the durable-ack fallback cases from racing their own window | +18/-6 | 2026-11-05 |
-| [#2429](https://github.com/first-tree-ai/first-tree/pull/2429) | test(server): give the lost-wake provider-models test real timing headroom | +9/-4 | 2026-11-04 |
-| [#2428](https://github.com/first-tree-ai/first-tree/pull/2428) | test(web): pin Intl default locale in schedules-section-dom assertions | +20/-0 | 2026-11-04 |
-| [#2427](https://github.com/first-tree-ai/first-tree/pull/2427) | fix(server): send non-ASCII attachment names as RFC 5987 filename* | +31/-6 | 2026-11-04 |
-| [#1975](https://github.com/first-tree-ai/first-tree/pull/1975) | fix(kimi-code): pass KIMI_CODE_HOME to harness for config/credential resolution | +237/-7 | 2026-07-27 |
+| [#410](https://github.com/alibaba/skill-up/pull/410) | fix(config): reject report formats the runner would ignore | +111/-0 | 2026-11-16 |
+| [#409](https://github.com/alibaba/skill-up/pull/409) | fix(config): reject rule_based matchers with no values | +356/-2 | 2026-11-18 |
+| [#397](https://github.com/alibaba/skill-up/pull/397) | feat(run): clean up the qodercli session directory too | +234/-13 | 2026-11-16 |
+| [#394](https://github.com/alibaba/skill-up/pull/394) | feat(run): add opt-in cleanup of the Claude Code session directory | +818/-20 | 2026-11-12 |
+
+**[alibaba/open-code-review](https://github.com/alibaba/open-code-review)**
+
+| PR | What | Size | Merged |
+|---|---|---|---|
+| [#1936](https://github.com/alibaba/open-code-review/pull/1936) | feat(review): default --to to HEAD when only --from is given | +323/-41 | 2026-11-15 |
+| [#1922](https://github.com/alibaba/open-code-review/pull/1922) | feat(review): support --resume for workspace mode | +778/-64 | 2026-11-14 |
 
 <!-- merged-prs:end -->
 
